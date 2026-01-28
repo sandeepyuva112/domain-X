@@ -10,7 +10,10 @@ def on_button_click():
     st.write(number1 +number2)
 on_button_click()
 st.download_button('downlopd', data='jpg', file_name='wallpaper.png')
+
 import pandas as pdgt
+import pandas as pd
+
 
 st.title("My First Streamlit App")
 st.write("Hello Streamlit")
