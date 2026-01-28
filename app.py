@@ -9,7 +9,7 @@ def on_button_click():
     st.write("The sum is:")
     st.write(number1 +number2)
 on_button_click()
-st.download_button('downlopd', data='jpg', file_name='wallpaper.jpg')
+st.download_button('downlopd', data='jpg', file_name='wallpaper.png')
 import pandas as pd
 
 st.title("My First Streamlit App")
