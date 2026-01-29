@@ -1,0 +1,42 @@
+body {
+    background-color: #111;
+    color: rgb(0, 87, 248);
+    font-family: Arial, sans-serif;
+    align-content: center;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers everything horizontally */
+    justify-content: center;
+}
+
+
+
+h1 {
+    color: orange;
+}
+p {
+    font-size: 18px;
+}
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers everything horizontally */
+    justify-content: center;
+}
